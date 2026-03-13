@@ -1,0 +1,55 @@
+name: ramentimer
+description: "Ramen Timer"
+
+publish_to: 'none'
+
+version: 1.5.0+20
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.20.2
+  shared_preferences: ^2.0.15
+  audioplayers: ^6.5.1
+  vibration: ^3.1.6
+  google_mobile_ads: ^7.0.0
+  wakelock_plus: ^1.4.0
+  in_app_review: ^2.0.11
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.14.3
+  flutter_native_splash: ^2.3.2
+  flutter_lints: ^6.0.0
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png"
+  adaptive_icon_background: "assets/icon/icon_back.png"
+  adaptive_icon_foreground: "assets/icon/icon_fore.png"
+
+flutter_native_splash:
+  color: '#ffcd44'
+  image: 'assets/image/splash.png'
+  color_dark: '#ffcd44'
+  image_dark: 'assets/image/splash.png'
+  fullscreen: true
+  android_12:
+    icon_background_color: '#ffcd44'
+    image: 'assets/image/splash.png'
+    icon_background_color_dark: '#ffcd44'
+    image_dark: 'assets/image/splash.png'
+
+flutter:
+  generate: true
+  uses-material-design: true
+
+  assets:
+    - assets/sound/
+    - assets/icon/
+    - assets/image/
