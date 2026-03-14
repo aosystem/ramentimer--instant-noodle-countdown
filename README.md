@@ -6,6 +6,9 @@ A specialized, ultra-fast **Countdown Timer** built with **Flutter**, specifical
 [![App Store](https://img.shields.io/badge/App_Store-Download-black?logo=apple&logoColor=white)](https://apps.apple.com/jp/app/id1631952345)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+## 📺 Demo Video
+[![Watch the video](https://img.youtube.com/vi/xSJU31mWciE/0.jpg)](https://www.youtube.com/watch?v=xSJU31mWciE)
+
 ## 🌟 Key Features
 - **Instant Start:** Begins measuring immediately upon launch to save you time.
 - **One-Tap Adjustments:** Quickly change duration to match different noodle types (3-min, 5-min, etc.).
